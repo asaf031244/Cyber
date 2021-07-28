@@ -31,4 +31,4 @@ client.on('voiceStateUpdate', (old, New) => {
     if(old.channelID && !New.channelID) client.queue.delete(old.guild.id)
 })
 
-Client.login('ODY5OTI3Mjk3NTY4ODkwOTYx.YQFU7g.wDSCHLf7UKYp3jgAi4EBmsImWwU');
+Client.login('TOKEN');
